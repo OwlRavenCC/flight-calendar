@@ -5,4 +5,5 @@
 	$user->indexTop();
 	$user->indexMiddle();
 	$user->indexFooter();
+	
 ?>

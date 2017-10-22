@@ -1,0 +1,99 @@
+body {
+  background-color: white;
+  padding-top: 100px; }
+
+.form-app {
+  margin-right: 0;
+  margin-left: 0;
+  background-color: #fff;
+  border-color: #ddd;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 30px 10%;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.page-bg {
+  background: url(../img/cover/back-3.jpg) center center no-repeat #9d9d9d;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  position: fixed;
+  width: 102%;
+  height: 103%;
+  margin-left: -1%;
+  margin-top: -1%;
+  top: 0;
+  left: 0;
+  z-index: -1; }
+
+.site-wrapper {
+  width: 100%;
+  min-height: 100%; }
+
+.cover-page {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 3.5%;
+  text-align: center; }
+
+/* Login page */
+.input-login {
+  margin: 5px;
+  background: none;
+  border: solid white 1px;
+  color: white;
+  margin-bottom: 15px;
+  font-size: 15.5px;
+  height: 40px;
+  z-index: 10;
+  position: relative; }
+
+.logo-cea {
+  margin-bottom: -30px; }
+
+.button-cea {
+  background: #414141;
+  font-size: 16px;
+  color: white;
+  border: 2px solid white;
+  width: 125px; }
+  .button-cea:hover {
+    background: #d5be96; }
+  .button-cea:active {
+    background: #5a798f !important; }
+
+/* Dashboard Page */
+.head-container {
+  font-size: 13.5px;
+  padding-top: 5%; }
+
+::-webkit-input-placeholder {
+  /* Chrome */
+  color: white !important; }
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: white !important; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: white !important;
+  opacity: 1; }
+
+:-moz-placeholder {
+  /* Firefox 4 - 18 */
+  color: white !important;
+  opacity: 1; }
+
+/*# sourceMappingURL=app.css.map */
